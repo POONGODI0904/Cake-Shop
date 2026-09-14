@@ -1,0 +1,20 @@
+{
+  "name": "sweetcrumb",
+  "version": "1.0.0",
+  "description": "SweetCrumb — Premium Cake Shop E-Commerce Website & Admin Portal",
+  "scripts": {
+    "dev:backend": "cd backend && node server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "cake-shop",
+    "ecommerce",
+    "react",
+    "express",
+    "mongodb",
+    "patisserie"
+  ],
+  "author": "SweetCrumb Team",
+  "license": "ISC"
+}

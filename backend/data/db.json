@@ -1,0 +1,1300 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Master Pâtissier Admin",
+      "email": "admin@sweetcrumb.com",
+      "phone": "+91 98765 43210",
+      "passwordHash": "$2a$10$2GwMVZo83G.QYdW.yTnrBeSgTedOEPqpUbxvUqlgpB4SRcjpjkFp2",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "cust-1",
+      "name": "Pooja Sundaram",
+      "email": "customer@sweetcrumb.com",
+      "phone": "+91 91234 56789",
+      "passwordHash": "$2a$10$a7RwmxyAdZchsleJuh4l0uphNkmPeNnbwQ4Ezlw4TCyEjoaYjymy.",
+      "role": "customer",
+      "status": "active",
+      "addresses": [
+        {
+          "id": "addr-1",
+          "name": "Pooja Sundaram",
+          "phone": "+91 91234 56789",
+          "houseNo": "Flat 402, Rosewood Heights",
+          "street": "Park Avenue Road",
+          "area": "Indiranagar",
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "pincode": "560038",
+          "landmark": "Near Metro Station",
+          "isDefault": true
+        }
+      ],
+      "createdAt": "2026-08-15T12:00:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Belgian Chocolate Truffle Cake",
+      "slug": "belgian-chocolate-truffle-cake",
+      "category": "Chocolate Cakes",
+      "categorySlug": "chocolate-cakes",
+      "description": "Rich, dense chocolate sponge layered with velvety 54% Belgian dark chocolate ganache and crowned with handmade dark chocolate rosettes and gold leaf accents.",
+      "ingredients": [
+        "Belgian Dark Chocolate 54%",
+        "Organic Flour",
+        "Dutch Cocoa",
+        "Butter",
+        "Heavy Cream",
+        "Pure Vanilla Extract",
+        "Brown Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Soy"
+      ],
+      "flavour": "Chocolate",
+      "weights": [
+        {
+          "weight": "500g",
+          "price": 699,
+          "serves": "4-5 people"
+        },
+        {
+          "weight": "1kg",
+          "price": 1299,
+          "serves": "8-10 people"
+        },
+        {
+          "weight": "1.5kg",
+          "price": 1899,
+          "serves": "12-14 people"
+        },
+        {
+          "weight": "2kg",
+          "price": 2499,
+          "serves": "16-18 people"
+        },
+        {
+          "weight": "3kg",
+          "price": 3699,
+          "serves": "24-28 people"
+        },
+        {
+          "weight": "5kg",
+          "price": 5999,
+          "serves": "40-45 people"
+        }
+      ],
+      "price": 699,
+      "originalPrice": 799,
+      "discountPercentage": 13,
+      "stock": 24,
+      "sku": "SWT-TRF-001",
+      "eggType": "Eggless",
+      "rating": 4.9,
+      "reviewsCount": 142,
+      "featured": true,
+      "bestseller": true,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-2",
+      "name": "Classic Black Forest Gateau",
+      "slug": "classic-black-forest-gateau",
+      "category": "Black Forest",
+      "categorySlug": "black-forest",
+      "description": "Traditional German Schwarzwälder Kirschtorte with layers of airy cocoa sponge soaked in wild cherry compote, Chantilly cream, and dark chocolate curls.",
+      "ingredients": [
+        "Sour Wild Cherries",
+        "Cocoa Powder",
+        "Fresh Whipping Cream",
+        "Pastry Flour",
+        "Dark Chocolate Curls",
+        "Pure Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "flavour": "Black Forest",
+      "weights": [
+        {
+          "weight": "500g",
+          "price": 599,
+          "serves": "4-5 people"
+        },
+        {
+          "weight": "1kg",
+          "price": 1099,
+          "serves": "8-10 people"
+        },
+        {
+          "weight": "1.5kg",
+          "price": 1599,
+          "serves": "12-14 people"
+        },
+        {
+          "weight": "2kg",
+          "price": 2099,
+          "serves": "16-18 people"
+        },
+        {
+          "weight": "3kg",
+          "price": 3099,
+          "serves": "24-28 people"
+        }
+      ],
+      "price": 599,
+      "originalPrice": 699,
+      "discountPercentage": 14,
+      "stock": 18,
+      "sku": "SWT-BKF-002",
+      "eggType": "Eggless",
+      "rating": 4.8,
+      "reviewsCount": 98,
+      "featured": false,
+      "bestseller": true,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-3",
+      "name": "Signature Red Velvet Cream Cheese",
+      "slug": "signature-red-velvet-cream-cheese",
+      "category": "Red Velvet",
+      "categorySlug": "red-velvet",
+      "description": "Seductively moist crimson sponge with a subtle cocoa hint, layered with luxurious Philadelphia cream cheese frosting and sprinkled with ruby cake crumbles.",
+      "ingredients": [
+        "Philadelphia Cream Cheese",
+        "Cultured Buttermilk",
+        "Organic Wheat Flour",
+        "Dutch Cocoa",
+        "Bourbon Vanilla",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "flavour": "Red Velvet",
+      "weights": [
+        {
+          "weight": "500g",
+          "price": 799,
+          "serves": "4-5 people"
+        },
+        {
+          "weight": "1kg",
+          "price": 1499,
+          "serves": "8-10 people"
+        },
+        {
+          "weight": "1.5kg",
+          "price": 2199,
+          "serves": "12-14 people"
+        },
+        {
+          "weight": "2kg",
+          "price": 2899,
+          "serves": "16-18 people"
+        },
+        {
+          "weight": "3kg",
+          "price": 4299,
+          "serves": "24-28 people"
+        }
+      ],
+      "price": 799,
+      "originalPrice": 899,
+      "discountPercentage": 11,
+      "stock": 20,
+      "sku": "SWT-RDV-003",
+      "eggType": "Eggless",
+      "rating": 4.9,
+      "reviewsCount": 165,
+      "featured": true,
+      "bestseller": true,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-4",
+      "name": "Butterscotch Caramel Crunch Cake",
+      "slug": "butterscotch-caramel-crunch-cake",
+      "category": "Birthday Cakes",
+      "categorySlug": "birthday-cakes",
+      "description": "Fluffy vanilla sponge layered with caramelized butterscotch syrup, handmade cashew praline crunch, and caramel drizzle.",
+      "ingredients": [
+        "Brown Sugar Caramel",
+        "Cashew Praline",
+        "Whipping Cream",
+        "Flour",
+        "Butter",
+        "Butterscotch Essences"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts",
+        "Gluten"
+      ],
+      "flavour": "Butterscotch",
+      "weights": [
+        {
+          "weight": "500g",
+          "price": 649,
+          "serves": "4-5 people"
+        },
+        {
+          "weight": "1kg",
+          "price": 1199,
+          "serves": "8-10 people"
+        },
+        {
+          "weight": "1.5kg",
+          "price": 1749,
+          "serves": "12-14 people"
+        },
+        {
+          "weight": "2kg",
+          "price": 2299,
+          "serves": "16-18 people"
+        }
+      ],
+      "price": 649,
+      "originalPrice": 749,
+      "discountPercentage": 13,
+      "stock": 15,
+      "sku": "SWT-BSC-004",
+      "eggType": "Eggless",
+      "rating": 4.7,
+      "reviewsCount": 84,
+      "featured": false,
+      "bestseller": false,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-5",
+      "name": "Wild Strawberry Shortcake Royale",
+      "slug": "wild-strawberry-shortcake-royale",
+      "category": "Fruit Cakes",
+      "categorySlug": "fruit-cakes",
+      "description": "Light sponge folded with organic Mahabaleshwar strawberries, strawberry coulis, whipped white ganache, and crowned with fresh strawberries.",
+      "ingredients": [
+        "Fresh Strawberries",
+        "White Chocolate Ganache",
+        "Pastry Cream",
+        "Flour",
+        "Pure Cane Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "flavour": "Strawberry",
+      "weights": [
+        {
+          "weight": "500g",
+          "price": 699,
+          "serves": "4-5 people"
+        },
+        {
+          "weight": "1kg",
+          "price": 1299,
+          "serves": "8-10 people"
+        },
+        {
+          "weight": "1.5kg",
+          "price": 1899,
+          "serves": "12-14 people"
+        },
+        {
+          "weight": "2kg",
+          "price": 2499,
+          "serves": "16-18 people"
+        }
+      ],
+      "price": 699,
+      "originalPrice": 799,
+      "discountPercentage": 12,
+      "stock": 12,
+      "sku": "SWT-STB-005",
+      "eggType": "Eggless",
+      "rating": 4.8,
+      "reviewsCount": 76,
+      "featured": true,
+      "bestseller": false,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1535254973040-607b474cb50d?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-6",
+      "name": "Blueberry Bliss New York Cheesecake",
+      "slug": "blueberry-bliss-ny-cheesecake",
+      "category": "Cheesecakes",
+      "categorySlug": "cheesecakes",
+      "description": "Authentic slow-baked New York style dense cream cheesecake on a spiced honey-graham crust, generously topped with tart wild blueberry glaze.",
+      "ingredients": [
+        "Cultured Cream Cheese",
+        "Graham Cracker Crumbs",
+        "Sour Cream",
+        "Wild Blueberries",
+        "Lemon Zest",
+        "Cane Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "flavour": "Blueberry",
+      "weights": [
+        {
+          "weight": "500g",
+          "price": 899,
+          "serves": "4-5 people"
+        },
+        {
+          "weight": "1kg",
+          "price": 1699,
+          "serves": "8-10 people"
+        },
+        {
+          "weight": "1.5kg",
+          "price": 2499,
+          "serves": "12-14 people"
+        },
+        {
+          "weight": "2kg",
+          "price": 3199,
+          "serves": "16-18 people"
+        }
+      ],
+      "price": 899,
+      "originalPrice": 1049,
+      "discountPercentage": 14,
+      "stock": 14,
+      "sku": "SWT-CHK-006",
+      "eggType": "Eggless",
+      "rating": 4.9,
+      "reviewsCount": 110,
+      "featured": true,
+      "bestseller": true,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1535254973040-607b474cb50d?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-7",
+      "name": "Personalized Memory Photo Cake",
+      "slug": "personalized-memory-photo-cake",
+      "category": "Photo Cakes",
+      "categorySlug": "photo-cakes",
+      "description": "Celebrate treasured memories with your photograph printed on premium edible sugar icing paper with certified organic food-grade ink atop vanilla-cream sponge.",
+      "ingredients": [
+        "Edible Sugar Paper",
+        "Food Colors",
+        "Vanilla Sponge",
+        "Whipped Cream",
+        "Buttercream Border"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "flavour": "Vanilla",
+      "weights": [
+        {
+          "weight": "1kg",
+          "price": 999,
+          "serves": "8-10 people"
+        },
+        {
+          "weight": "1.5kg",
+          "price": 1499,
+          "serves": "12-14 people"
+        },
+        {
+          "weight": "2kg",
+          "price": 1999,
+          "serves": "16-18 people"
+        },
+        {
+          "weight": "3kg",
+          "price": 2999,
+          "serves": "24-28 people"
+        }
+      ],
+      "price": 999,
+      "originalPrice": 1199,
+      "discountPercentage": 17,
+      "stock": 22,
+      "sku": "SWT-PHT-007",
+      "eggType": "Eggless",
+      "rating": 4.8,
+      "reviewsCount": 88,
+      "featured": false,
+      "bestseller": false,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1535254973040-607b474cb50d?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1562440499-64c9a111f713?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-8",
+      "name": "KitKat & Gems Chocolate Carnival",
+      "slug": "kitkat-gems-chocolate-carnival",
+      "category": "Kids Cakes",
+      "categorySlug": "kids-cakes",
+      "description": "Crispy KitKat wafer fence enclosing a mountain of colorful chocolate Gems, built around a moist chocolate ganache cake center. Every kid's dream!",
+      "ingredients": [
+        "KitKat Bars",
+        "Gems Chocolate Candies",
+        "Dark Cocoa",
+        "Ganache",
+        "Flour",
+        "Cream"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Soy"
+      ],
+      "flavour": "Chocolate",
+      "weights": [
+        {
+          "weight": "500g",
+          "price": 849,
+          "serves": "4-5 people"
+        },
+        {
+          "weight": "1kg",
+          "price": 1549,
+          "serves": "8-10 people"
+        },
+        {
+          "weight": "1.5kg",
+          "price": 2249,
+          "serves": "12-14 people"
+        },
+        {
+          "weight": "2kg",
+          "price": 2949,
+          "serves": "16-18 people"
+        }
+      ],
+      "price": 849,
+      "originalPrice": 949,
+      "discountPercentage": 11,
+      "stock": 19,
+      "sku": "SWT-KTK-008",
+      "eggType": "Eggless",
+      "rating": 4.9,
+      "reviewsCount": 132,
+      "featured": false,
+      "bestseller": true,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1562440499-64c9a111f713?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-9",
+      "name": "Tropical Pineapple Glaze Cake",
+      "slug": "tropical-pineapple-glaze-cake",
+      "category": "Fruit Cakes",
+      "categorySlug": "fruit-cakes",
+      "description": "Sun-ripened pineapple tidbits enveloped in light vanilla sponge, fresh dairy cream, and glistening passion-pineapple mirror glaze with Maraschino cherries.",
+      "ingredients": [
+        "Hawaiian Pineapples",
+        "Cherry Compote",
+        "Vanilla Bean",
+        "Flour",
+        "Whipped Dairy Cream"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "flavour": "Pineapple",
+      "weights": [
+        {
+          "weight": "500g",
+          "price": 599,
+          "serves": "4-5 people"
+        },
+        {
+          "weight": "1kg",
+          "price": 1099,
+          "serves": "8-10 people"
+        },
+        {
+          "weight": "1.5kg",
+          "price": 1599,
+          "serves": "12-14 people"
+        },
+        {
+          "weight": "2kg",
+          "price": 2099,
+          "serves": "16-18 people"
+        }
+      ],
+      "price": 599,
+      "originalPrice": 699,
+      "discountPercentage": 14,
+      "stock": 25,
+      "sku": "SWT-PNP-009",
+      "eggType": "Eggless",
+      "rating": 4.7,
+      "reviewsCount": 91,
+      "featured": false,
+      "bestseller": false,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1535254973040-607b474cb50d?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-10",
+      "name": "Madagascar Pure Vanilla Bean",
+      "slug": "madagascar-pure-vanilla-bean",
+      "category": "Birthday Cakes",
+      "categorySlug": "birthday-cakes",
+      "description": "Pure comfort crafted with real Madagascar Bourbon vanilla bean caviar, silky Swiss meringue buttercream, and delicate white chocolate shavings.",
+      "ingredients": [
+        "Madagascar Bourbon Vanilla",
+        "Swiss Meringue Buttercream",
+        "Pastry Flour",
+        "Unsalted Butter",
+        "Milk"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "flavour": "Vanilla",
+      "weights": [
+        {
+          "weight": "500g",
+          "price": 499,
+          "serves": "4-5 people"
+        },
+        {
+          "weight": "1kg",
+          "price": 949,
+          "serves": "8-10 people"
+        },
+        {
+          "weight": "1.5kg",
+          "price": 1399,
+          "serves": "12-14 people"
+        },
+        {
+          "weight": "2kg",
+          "price": 1849,
+          "serves": "16-18 people"
+        }
+      ],
+      "price": 499,
+      "originalPrice": 599,
+      "discountPercentage": 17,
+      "stock": 30,
+      "sku": "SWT-VNL-010",
+      "eggType": "Eggless",
+      "rating": 4.8,
+      "reviewsCount": 78,
+      "featured": false,
+      "bestseller": false,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1535141192574-5d4897c13136?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-11",
+      "name": "Alphonso Mango Silk Mousse Cake",
+      "slug": "alphonso-mango-silk-mousse",
+      "category": "Fruit Cakes",
+      "categorySlug": "fruit-cakes",
+      "description": "Seasonal bliss with 100% Ratnagiri Alphonso mango pulp whipped into an ethereal cloud mousse, layered with mango jelly and white chocolate sponge.",
+      "ingredients": [
+        "Ratnagiri Alphonso Mangoes",
+        "White Chocolate",
+        "Heavy Cream",
+        "Sponge Flour",
+        "Gold Flakes"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "flavour": "Mango",
+      "weights": [
+        {
+          "weight": "500g",
+          "price": 699,
+          "serves": "4-5 people"
+        },
+        {
+          "weight": "1kg",
+          "price": 1299,
+          "serves": "8-10 people"
+        },
+        {
+          "weight": "1.5kg",
+          "price": 1899,
+          "serves": "12-14 people"
+        },
+        {
+          "weight": "2kg",
+          "price": 2499,
+          "serves": "16-18 people"
+        }
+      ],
+      "price": 699,
+      "originalPrice": 799,
+      "discountPercentage": 12,
+      "stock": 16,
+      "sku": "SWT-MNG-011",
+      "eggType": "Eggless",
+      "rating": 4.9,
+      "reviewsCount": 104,
+      "featured": true,
+      "bestseller": true,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-12",
+      "name": "Ferrero Rocher Hazelnut Dream",
+      "slug": "ferrero-rocher-hazelnut-dream",
+      "category": "Chocolate Cakes",
+      "categorySlug": "chocolate-cakes",
+      "description": "Ultimate indulgence featuring roasted Italian hazelnuts, Nutella mousse, crispy wafer layers, and crowned with whole Ferrero Rocher truffles and 24K edible gold.",
+      "ingredients": [
+        "Ferrero Rocher Truffles",
+        "Nutella",
+        "Piedmont Hazelnuts",
+        "Dark Chocolate 70%",
+        "Wafers",
+        "Cream"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts",
+        "Gluten",
+        "Soy"
+      ],
+      "flavour": "Chocolate",
+      "weights": [
+        {
+          "weight": "500g",
+          "price": 1199,
+          "serves": "4-5 people"
+        },
+        {
+          "weight": "1kg",
+          "price": 2199,
+          "serves": "8-10 people"
+        },
+        {
+          "weight": "1.5kg",
+          "price": 3199,
+          "serves": "12-14 people"
+        },
+        {
+          "weight": "2kg",
+          "price": 4199,
+          "serves": "16-18 people"
+        },
+        {
+          "weight": "3kg",
+          "price": 6199,
+          "serves": "24-28 people"
+        }
+      ],
+      "price": 1199,
+      "originalPrice": 1399,
+      "discountPercentage": 14,
+      "stock": 10,
+      "sku": "SWT-FRR-012",
+      "eggType": "Eggless",
+      "rating": 5,
+      "reviewsCount": 198,
+      "featured": true,
+      "bestseller": true,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-13",
+      "name": "Designer Geode & Gold Birthday Cake",
+      "slug": "designer-geode-gold-birthday",
+      "category": "Designer Cakes",
+      "categorySlug": "designer-cakes",
+      "description": "An architectural edible artwork featuring sculpted edible rock-sugar geode crystals in amethyst & gold leaf, smooth white chocolate marble fondant, and vanilla berry center.",
+      "ingredients": [
+        "Rock Sugar Crystals",
+        "24K Edible Gold Leaf",
+        "White Chocolate Ganache",
+        "Madagascar Vanilla",
+        "Pastry Cream"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "flavour": "Vanilla",
+      "weights": [
+        {
+          "weight": "1kg",
+          "price": 1499,
+          "serves": "8-10 people"
+        },
+        {
+          "weight": "1.5kg",
+          "price": 2199,
+          "serves": "12-14 people"
+        },
+        {
+          "weight": "2kg",
+          "price": 2899,
+          "serves": "16-18 people"
+        },
+        {
+          "weight": "3kg",
+          "price": 4299,
+          "serves": "24-28 people"
+        }
+      ],
+      "price": 1499,
+      "originalPrice": 1799,
+      "discountPercentage": 17,
+      "stock": 8,
+      "sku": "SWT-DSG-013",
+      "eggType": "Eggless",
+      "rating": 4.9,
+      "reviewsCount": 62,
+      "featured": true,
+      "bestseller": false,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-14",
+      "name": "Grand Imperial 3-Tier Wedding Cake",
+      "slug": "grand-imperial-wedding-cake",
+      "category": "Wedding Cakes",
+      "categorySlug": "wedding-cakes",
+      "description": "Spectacular 3-tiered wedding centerpiece decorated with cascade of hand-sculpted gum paste roses, pearls, and edible gold embroidery. Custom flavour per tier.",
+      "ingredients": [
+        "Gum Paste Botanicals",
+        "Swiss Fondant",
+        "Almond Butter Sponge",
+        "Vanilla Cream",
+        "Edible Pearls"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts",
+        "Gluten"
+      ],
+      "flavour": "Vanilla",
+      "weights": [
+        {
+          "weight": "3kg",
+          "price": 2999,
+          "serves": "25-30 guests"
+        },
+        {
+          "weight": "5kg",
+          "price": 4999,
+          "serves": "45-50 guests"
+        },
+        {
+          "weight": "7kg",
+          "price": 6999,
+          "serves": "65-75 guests"
+        }
+      ],
+      "price": 2999,
+      "originalPrice": 3499,
+      "discountPercentage": 14,
+      "stock": 5,
+      "sku": "SWT-WED-014",
+      "eggType": "Eggless",
+      "rating": 5,
+      "reviewsCount": 45,
+      "featured": true,
+      "bestseller": true,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1535141192574-5d4897c13136?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-15",
+      "name": "Artisan French Macaron Cupcake Box (6 Pcs)",
+      "slug": "artisan-macaron-cupcake-box",
+      "category": "Cupcakes",
+      "categorySlug": "cupcakes",
+      "description": "Set of 6 luxury cupcakes topped with raspberry, pistachio, and chocolate Parisian macarons and gold dusted buttercream swirls.",
+      "ingredients": [
+        "Almond Flour",
+        "Eggless Cupcake Base",
+        "Buttercream",
+        "Raspberry Coulis",
+        "Pistachio Butter"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts",
+        "Gluten"
+      ],
+      "flavour": "Mixed",
+      "weights": [
+        {
+          "weight": "6 Pcs",
+          "price": 549,
+          "serves": "3-6 people"
+        },
+        {
+          "weight": "12 Pcs",
+          "price": 999,
+          "serves": "6-12 people"
+        }
+      ],
+      "price": 549,
+      "originalPrice": 649,
+      "discountPercentage": 15,
+      "stock": 35,
+      "sku": "SWT-CPC-015",
+      "eggType": "Eggless",
+      "rating": 4.8,
+      "reviewsCount": 67,
+      "featured": false,
+      "bestseller": false,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?q=80&w=800&auto=format&fit=crop"
+      }
+    },
+    {
+      "id": "prod-16",
+      "name": "Royal Heart Valentine Anniversary Cake",
+      "slug": "royal-heart-anniversary-cake",
+      "category": "Anniversary Cakes",
+      "categorySlug": "anniversary-cakes",
+      "description": "Romantic heart-shaped cake coated in deep crimson mirror glaze, filled with raspberry white chocolate mousse, and crowned with edible gold roses.",
+      "ingredients": [
+        "Raspberry Mousse",
+        "White Chocolate",
+        "Mirror Glaze",
+        "Flour",
+        "Gold Dust"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "flavour": "Red Velvet",
+      "weights": [
+        {
+          "weight": "500g",
+          "price": 849,
+          "serves": "4-5 people"
+        },
+        {
+          "weight": "1kg",
+          "price": 1599,
+          "serves": "8-10 people"
+        },
+        {
+          "weight": "1.5kg",
+          "price": 2299,
+          "serves": "12-14 people"
+        },
+        {
+          "weight": "2kg",
+          "price": 2999,
+          "serves": "16-18 people"
+        }
+      ],
+      "price": 849,
+      "originalPrice": 999,
+      "discountPercentage": 15,
+      "stock": 14,
+      "sku": "SWT-HRT-016",
+      "eggType": "Eggless",
+      "rating": 4.9,
+      "reviewsCount": 89,
+      "featured": true,
+      "bestseller": true,
+      "status": "active",
+      "images": {
+        "front": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?q=80&w=800&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=800&auto=format&fit=crop"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Birthday Cakes",
+      "slug": "birthday-cakes",
+      "description": "Celebration-ready artisan birthday cakes with vibrant toppings and custom messaging.",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
+      "status": "active"
+    },
+    {
+      "id": "cat-2",
+      "name": "Wedding Cakes",
+      "slug": "wedding-cakes",
+      "description": "Multi-tiered grand architectural wedding masterpieces decorated with sugar flowers.",
+      "image": "https://images.unsplash.com/photo-1535141192574-5d4897c13136?q=80&w=800&auto=format&fit=crop",
+      "status": "active"
+    },
+    {
+      "id": "cat-3",
+      "name": "Anniversary Cakes",
+      "slug": "anniversary-cakes",
+      "description": "Romantic heart and tier cakes celebrating milestones and timeless love.",
+      "image": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop",
+      "status": "active"
+    },
+    {
+      "id": "cat-4",
+      "name": "Chocolate Cakes",
+      "slug": "chocolate-cakes",
+      "description": "Decadent Belgian dark, milk, and ganache-infused chocolate sensations.",
+      "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=800&auto=format&fit=crop",
+      "status": "active"
+    },
+    {
+      "id": "cat-5",
+      "name": "Red Velvet",
+      "slug": "red-velvet",
+      "description": "Velvety crimson sponge layered with smooth Madagascar vanilla cream cheese.",
+      "image": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?q=80&w=800&auto=format&fit=crop",
+      "status": "active"
+    },
+    {
+      "id": "cat-6",
+      "name": "Black Forest",
+      "slug": "black-forest",
+      "description": "Classic German kirsch sponge with whipped cream, cherries, and dark chocolate shavings.",
+      "image": "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?q=80&w=800&auto=format&fit=crop",
+      "status": "active"
+    },
+    {
+      "id": "cat-7",
+      "name": "Fruit Cakes",
+      "slug": "fruit-cakes",
+      "description": "Light sponge crowned with glazed seasonal berries, kiwis, mangoes, and grapes.",
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=800&auto=format&fit=crop",
+      "status": "active"
+    },
+    {
+      "id": "cat-8",
+      "name": "Photo Cakes",
+      "slug": "photo-cakes",
+      "description": "Personalized edible sugar sheet photo prints with high-definition clarity.",
+      "image": "https://images.unsplash.com/photo-1535254973040-607b474cb50d?q=80&w=800&auto=format&fit=crop",
+      "status": "active"
+    },
+    {
+      "id": "cat-9",
+      "name": "Kids Cakes",
+      "slug": "kids-cakes",
+      "description": "Whimsical wonderland, cartoon, jungle, and superhero themed delight cakes.",
+      "image": "https://images.unsplash.com/photo-1562440499-64c9a111f713?q=80&w=800&auto=format&fit=crop",
+      "status": "active"
+    },
+    {
+      "id": "cat-10",
+      "name": "Cupcakes",
+      "slug": "cupcakes",
+      "description": "Individual gourmet cupcakes with artistic buttercream swirls and sprinkles.",
+      "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?q=80&w=800&auto=format&fit=crop",
+      "status": "active"
+    },
+    {
+      "id": "cat-11",
+      "name": "Cheesecakes",
+      "slug": "cheesecakes",
+      "description": "New York baked and chilled cheesecakes with buttery graham cracker crusts.",
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=800&auto=format&fit=crop",
+      "status": "active"
+    },
+    {
+      "id": "cat-12",
+      "name": "Designer Cakes",
+      "slug": "designer-cakes",
+      "description": "Boutique contemporary artistic cakes with gold leaf, geode sugar crystals, and marble glaze.",
+      "image": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?q=80&w=800&auto=format&fit=crop",
+      "status": "active"
+    },
+    {
+      "id": "cat-13",
+      "name": "Eggless Cakes",
+      "slug": "eggless-cakes",
+      "description": "100% vegetarian, ultra-moist sponge cakes crafted without compromises on flavour.",
+      "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?q=80&w=800&auto=format&fit=crop",
+      "status": "active"
+    },
+    {
+      "id": "cat-14",
+      "name": "Custom Cakes",
+      "slug": "custom-cakes",
+      "description": "Build your customized dream cake with shape, flavour, tiers, and toppings of your choice.",
+      "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?q=80&w=800&auto=format&fit=crop",
+      "status": "active"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1001",
+      "orderNumber": "SWT-ORD-2026-001",
+      "userId": "cust-1",
+      "customerName": "Pooja Sundaram",
+      "customerEmail": "customer@sweetcrumb.com",
+      "customerPhone": "+91 91234 56789",
+      "items": [
+        {
+          "productId": "prod-1",
+          "name": "Belgian Chocolate Truffle Cake",
+          "weight": "1kg",
+          "price": 1299,
+          "quantity": 1,
+          "messageOnCake": "Happy 28th Birthday Sanjay!",
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop"
+        }
+      ],
+      "subtotal": 1299,
+      "discount": 100,
+      "deliveryFee": 50,
+      "tax": 40,
+      "total": 1289,
+      "couponApplied": "FLAT100",
+      "address": {
+        "name": "Pooja Sundaram",
+        "phone": "+91 91234 56789",
+        "houseNo": "Flat 402, Rosewood Heights",
+        "street": "Park Avenue Road",
+        "area": "Indiranagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560038",
+        "landmark": "Near Metro Station"
+      },
+      "deliveryDate": "2026-09-12",
+      "deliveryTime": "Evening (4:00 PM - 8:00 PM)",
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "orderStatus": "Baking",
+      "giftMessage": "Enjoy your special day brother!",
+      "statusTimeline": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-09-11T10:15:00Z",
+          "completed": true
+        },
+        {
+          "status": "Order Confirmed",
+          "timestamp": "2026-09-11T10:20:00Z",
+          "completed": true
+        },
+        {
+          "status": "Baking",
+          "timestamp": "2026-09-11T14:30:00Z",
+          "completed": true
+        },
+        {
+          "status": "Ready for Delivery",
+          "timestamp": null,
+          "completed": false
+        },
+        {
+          "status": "Out for Delivery",
+          "timestamp": null,
+          "completed": false
+        },
+        {
+          "status": "Delivered",
+          "timestamp": null,
+          "completed": false
+        }
+      ],
+      "createdAt": "2026-09-11T10:15:00Z"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "cpn-1",
+      "code": "WELCOME10",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minimumAmount": 499,
+      "maximumDiscount": 200,
+      "expiryDate": "2027-12-31",
+      "usageLimit": 1000,
+      "usedCount": 42,
+      "status": "active"
+    },
+    {
+      "id": "cpn-2",
+      "code": "SWEETGOLD",
+      "discountType": "percentage",
+      "discountValue": 15,
+      "minimumAmount": 999,
+      "maximumDiscount": 500,
+      "expiryDate": "2027-12-31",
+      "usageLimit": 500,
+      "usedCount": 88,
+      "status": "active"
+    },
+    {
+      "id": "cpn-3",
+      "code": "FLAT100",
+      "discountType": "fixed",
+      "discountValue": 100,
+      "minimumAmount": 699,
+      "maximumDiscount": 100,
+      "expiryDate": "2027-12-31",
+      "usageLimit": 300,
+      "usedCount": 15,
+      "status": "active"
+    }
+  ],
+  "banners": [
+    {
+      "id": "ban-1",
+      "heading": "Artisanal Celebration Cakes Handcrafted with Love",
+      "description": "Experience decadent Belgian chocolate, velvety red sponges, and bespoke floral designs baked fresh every morning.",
+      "buttonText": "Order Now",
+      "buttonLink": "/cakes",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1200&auto=format&fit=crop",
+      "status": "active"
+    },
+    {
+      "id": "ban-2",
+      "heading": "Design Your Custom Masterpiece",
+      "description": "Choose shapes, flavours, tiers, toppings, and personalized piping messages with live 3D pricing preview.",
+      "buttonText": "Build Custom Cake",
+      "buttonLink": "/custom-cake",
+      "image": "https://images.unsplash.com/photo-1535141192574-5d4897c13136?q=80&w=1200&auto=format&fit=crop",
+      "status": "active"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "productId": "prod-1",
+      "productName": "Belgian Chocolate Truffle Cake",
+      "userId": "cust-1",
+      "userName": "Ananya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+      "rating": 5,
+      "review": "The most heavenly chocolate cake I've ever tasted! The 54% dark chocolate ganache is silky and not overly sweet. Delivered right at midnight in flawless condition.",
+      "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=400&auto=format&fit=crop",
+      "status": "approved",
+      "createdAt": "2026-09-08T10:30:00Z"
+    },
+    {
+      "id": "rev-2",
+      "productId": "prod-3",
+      "productName": "Signature Red Velvet Cream Cheese",
+      "userId": "cust-2",
+      "userName": "Rohan Varma",
+      "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+      "rating": 5,
+      "review": "Ordered this for our 5th wedding anniversary. The cream cheese frosting was exceptionally rich and balanced. The custom message was piped with calligraphy perfection!",
+      "image": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?q=80&w=400&auto=format&fit=crop",
+      "status": "approved",
+      "createdAt": "2026-09-09T14:15:00Z"
+    },
+    {
+      "id": "rev-3",
+      "productId": "prod-6",
+      "productName": "Blueberry Bliss New York Cheesecake",
+      "userId": "cust-3",
+      "userName": "Priya Nair",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+      "rating": 5,
+      "review": "Pure perfection. True New York style texture, rich creaminess, and real wild blueberry reduction. 10/10 recommendation for cheesecake lovers!",
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=400&auto=format&fit=crop",
+      "status": "approved",
+      "createdAt": "2026-09-10T18:00:00Z"
+    }
+  ]
+}
