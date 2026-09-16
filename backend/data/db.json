@@ -5,7 +5,7 @@
       "name": "Master Pâtissier Admin",
       "email": "admin@sweetcrumb.com",
       "phone": "+91 98765 43210",
-      "passwordHash": "$2a$10$2GwMVZo83G.QYdW.yTnrBeSgTedOEPqpUbxvUqlgpB4SRcjpjkFp2",
+      "passwordHash": "$2a$10$fynApbJRzmsOgsxHPSyPjOkdqI.3wUAGCoeOE0fWuggnQ/9Ukx5u.",
       "role": "admin",
       "status": "active",
       "createdAt": "2026-01-01T00:00:00Z"
@@ -15,7 +15,7 @@
       "name": "Pooja Sundaram",
       "email": "customer@sweetcrumb.com",
       "phone": "+91 91234 56789",
-      "passwordHash": "$2a$10$a7RwmxyAdZchsleJuh4l0uphNkmPeNnbwQ4Ezlw4TCyEjoaYjymy.",
+      "passwordHash": "$2a$10$sCF.BtW.FbMclYnecJrT4OlBJe5h58RDw1mnD85ofS5YoTepcP87K",
       "role": "customer",
       "status": "active",
       "addresses": [
@@ -891,10 +891,10 @@
       "bestseller": true,
       "status": "active",
       "images": {
-        "front": "https://images.unsplash.com/photo-1535141192574-5d4897c13136?q=80&w=800&auto=format&fit=crop",
-        "side": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?q=80&w=800&auto=format&fit=crop",
-        "top": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=800&auto=format&fit=crop",
-        "closeup": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop"
+        "front": "https://images.unsplash.com/photo-1503525642560-ecca5e2e49e9?q=80&w=535&auto=format&fit=crop",
+        "side": "https://images.unsplash.com/photo-1542007920-992d2c424d09?q=80&w=387&auto=format&fit=crop",
+        "top": "https://images.unsplash.com/photo-1623428454614-abaf00244e52?q=80&w=1374&auto=format&fit=crop",
+        "closeup": "https://images.unsplash.com/photo-1519654793190-2e8a4806f1f2?q=80&w=387&auto=format&fit=crop"
       }
     },
     {
@@ -1021,7 +1021,7 @@
       "name": "Wedding Cakes",
       "slug": "wedding-cakes",
       "description": "Multi-tiered grand architectural wedding masterpieces decorated with sugar flowers.",
-      "image": "https://images.unsplash.com/photo-1535141192574-5d4897c13136?q=80&w=800&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?q=80&w=800&auto=format&fit=crop",
       "status": "active"
     },
     {

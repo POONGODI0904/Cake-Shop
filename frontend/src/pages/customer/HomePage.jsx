@@ -393,7 +393,7 @@ export default function HomePage() {
                 to={`/cakes?category=${encodeURIComponent(cat.name)}`}
                 style={{
                   display: 'flex',
-                  flexDirection: 'column',
+                  flexDirection: 'column', 
                   alignItems: 'center',
                   textAlign: 'center',
                   padding: '18px 14px',

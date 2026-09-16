@@ -15,7 +15,7 @@ const categories = [
     name: "Wedding Cakes",
     slug: "wedding-cakes",
     description: "Multi-tiered grand architectural wedding masterpieces decorated with sugar flowers.",
-    image: "https://images.unsplash.com/photo-1535141192574-5d4897c13136?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?q=80&w=600&auto=format&fit=crop",
     status: "active"
   },
   {
