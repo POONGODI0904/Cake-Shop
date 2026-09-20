@@ -768,7 +768,7 @@
       "price": 1199,
       "originalPrice": 1399,
       "discountPercentage": 14,
-      "stock": 10,
+      "stock": 9,
       "sku": "SWT-FRR-012",
       "eggType": "Eggless",
       "rating": 5,
@@ -1122,6 +1122,90 @@
     }
   ],
   "orders": [
+    {
+      "id": "ord-1789924271858",
+      "_id": "ord-1789924271858",
+      "orderNumber": "SWT-ORD-2026-9767",
+      "orderStatus": "Confirmed",
+      "paymentStatus": "Paid",
+      "createdAt": "2026-09-20T17:11:11.858Z",
+      "statusTimeline": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-09-20T17:11:11.858Z",
+          "completed": true
+        },
+        {
+          "status": "Order Confirmed",
+          "timestamp": "2026-09-20T17:11:11.858Z",
+          "completed": true
+        },
+        {
+          "status": "Baking",
+          "timestamp": null,
+          "completed": false
+        },
+        {
+          "status": "Ready for Delivery",
+          "timestamp": null,
+          "completed": false
+        },
+        {
+          "status": "Out for Delivery",
+          "timestamp": null,
+          "completed": false
+        },
+        {
+          "status": "Delivered",
+          "timestamp": null,
+          "completed": false
+        }
+      ],
+      "userId": "guest-1789924249541",
+      "customerName": "POONGODI S",
+      "customerEmail": "customer@sweetcrumb.com",
+      "customerPhone": "9876543210",
+      "items": [
+        {
+          "cartKey": "prod-12-1kg-",
+          "productId": "prod-12",
+          "name": "Ferrero Rocher Hazelnut Dream",
+          "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=800&auto=format&fit=crop",
+          "category": "Chocolate Cakes",
+          "weight": "1kg",
+          "price": 2199,
+          "quantity": 1,
+          "eggType": "Eggless",
+          "messageOnCake": "",
+          "isCustom": false,
+          "customDetails": null
+        }
+      ],
+      "subtotal": 2199,
+      "discount": 0,
+      "deliveryFee": 0,
+      "tax": 110,
+      "total": 2309,
+      "couponApplied": null,
+      "address": {
+        "id": "addr-1789924209344",
+        "name": "POONGODI S",
+        "phone": "9876543210",
+        "houseNo": "14/71,Bhavani",
+        "street": "Bhavani",
+        "area": "",
+        "city": "Bhavani",
+        "state": "Karnataka",
+        "pincode": "638311",
+        "landmark": "",
+        "isDefault": false
+      },
+      "deliveryDate": "2026-09-21",
+      "deliveryTime": "Evening (4:00 PM - 8:00 PM)",
+      "paymentMethod": "Cash on Delivery",
+      "giftMessage": "",
+      "customerNotes": ""
+    },
     {
       "id": "ord-1001",
       "orderNumber": "SWT-ORD-2026-001",

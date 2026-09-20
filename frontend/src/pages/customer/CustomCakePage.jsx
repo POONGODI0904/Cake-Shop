@@ -213,11 +213,14 @@ export default function CustomCakePage() {
               }} />
 
               {/* Dynamic Cake Visual */}
+                         {/* Dynamic Cake Visual */}
               <div style={{
                 position: 'relative',
-                width: shape === 'Round' || shape === 'Heart' ? '190px' : '210px',
-                height: shape === 'Rectangle' ? '140px' : '170px',
-                borderRadius: shape === 'Round' ? '50%' : shape === 'Square' ? '28px' : shape === 'Heart' ? '30px 30px 90px 90px' : '20px',
+                // Intha 3 line-a mattum maathu
+width: shape === 'Heart' ? '200px' : '190px',
+height: shape === 'Heart' ? '185px' : '170px',
+                borderRadius: shape === 'Round' ? '50%' : shape === 'Square' ? '28px' : shape === 'Rectangle' ? '20px' : '0px',
+                clipPath: shape === 'Heart' ? "path('M 100 30 C 90 10, 0 10, 10 70 C 20 110, 100 175, 100 175 C 100 175, 180 110, 190 70 C 200 10, 110 10, 100 30 Z')" : 'none',
                 background: frostingColor === 'Velvet Red'
                   ? 'linear-gradient(135deg, #A82024 0%, #D44246 100%)'
                   : frostingColor === 'Pastel Pink'
@@ -234,6 +237,7 @@ export default function CustomCakePage() {
                 textAlign: 'center',
                 transition: 'all 0.4s ease'
               }} className="float-animation">
+            
                 {/* Photo Reference Overlay if uploaded */}
                 {photoReference ? (
                   <img
